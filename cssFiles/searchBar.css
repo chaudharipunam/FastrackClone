@@ -1,0 +1,147 @@
+.logoFastrack10{
+    width: 180px;
+}
+
+.Whole-container-fastrack-searchbar{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(207, 200, 200);
+    padding: 25px;
+}
+
+.search-bar-watches{
+    background-color: rgb(230, 228, 228);
+    width: 60%;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+#icon10{
+    margin: 0 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.input10{
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    width: 90%;
+    height: 100%;
+}
+
+#microphone-icon{
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.Cancel10{
+    background-color: transparent;
+    font-size: 18px;
+    border: none;
+    margin-top: 10%;
+}
+
+
+.API10, .API11, .API12{
+    background-color: rgb(234, 237, 237);
+    border: none;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.APIs-in-btn{
+    margin: 35px 0 0 150px;
+}
+
+.Trending-pro{
+    margin-left: 160px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+
+.Trending-products-list{
+    display: flex;
+    margin-left: 160px;
+    width: 700px;
+
+}
+
+.multiple-price{
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.trending-watch{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.Trending-products-item{
+    margin-right: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.trending-image-data{
+    margin: 5px 5px 10px 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.trending-list-little-data{
+    color: gray;
+    margin-left: 7px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#rupee{
+   margin :0 3px 0 10px;
+   font-size: 13px;
+}
+
+.Discount-price{
+    margin-left: 10px;
+    color: orangered;
+}
+
+.trending-image-price2{
+  text-decoration: line-through;
+  color: gray;
+}
+
+
+.API10:hover, .API11:hover, .API12:hover{
+     background-color: black;
+     color: white;
+     cursor: pointer;
+}
+
+
+.unique-icon{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: orangered;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   cursor: pointer;
+   position: fixed;
+   top: 500px;
+   left: 1200px;
+}
+
+#unique{
+    font-size: 25px;
+}
+
+#unique:hover{
+    font-weight: 900;
+    font-size: 30px;
+}

@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    color: #333;
+    width: 100%;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    color: #000;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    border-bottom: 5px solid orange;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    color: black;
+}
+
+#LogoFast{
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    /* gap: 20px; */
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 15px 20px 0 20px;
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-links li:hover .nested-menus {
+    display: block;
+}
+
+.nested-menus {
+    background-color: white;
+    color: black;
+    display: none;
+    position: absolute;
+    top: 100%;
+    margin-top: 20px;
+    left: 0;
+    width: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.nested-menus li {
+    list-style-type: none;
+}
+
+.nested-menus li a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    /* padding: 10px 20px; */
+}
+
+.nested-menus li a:hover {
+    background-color: #f0f0f0;
+}
+
+.liFirst, .liLast {
+    font-weight: bold;
+}
+
+.nav-links li:hover .nested-menus ul {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#icons15{
+    font-size: 20px;
+    color: black;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.icons a {
+    /* color: #fff; */
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 0 5px;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#wa-menu-list, #sm-menu-list, #re-menu-list, #sa-menu-list, #gi-menu-list{
+    height: 50px;
+    display: flex;
+    
+}
+#wa-menu-list:hover, #sm-menu-list:hover, #re-menu-list:hover, #sa-menu-list:hover, #gi-menu-list:hover{
+   border-bottom: 5px solid rgb(249, 118, 70);
+   
+}
+
+#icons15{
+    font-size: 20px;
+    color: black;
+}
+
+.add-location{
+    /* margin-left: 50px; */
+    background-color: rgb(216, 212, 212);
+    width: 100%;
+    margin: 0;
+ }
+ 
+ .Location{
+     margin: 5px;
+     font-size: 13px;
+     font-weight: 600;
+ }
+ 
+ #map-icon{
+     margin: 5px;
+ }
+ 
+ .link-location{
+     margin-left: 30px;
+     color: black;
+ }
+ 
+ .link-location:hover{
+     text-decoration: none;
+ }
+ 
+ 
